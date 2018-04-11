@@ -92,24 +92,18 @@ helm add ```https://ibmcloudprivate2.github.io/mycharts```
 ![helmrepo](../master/img/helm-repo.png)
 
 ## catalog
-![./img/demo-chart.png]
-![./img/repo-image.png]
+!(../master/img/demo-chart.png)
+!(../master/img/repo-image.png)
 
 ## configure chart
-![./img/configure-chart.png]
+!(../master/img/configure-chart.png)
 
 ## install chart
-![./img/install-chart.png]
+!(../master/img/install-chart.png)
 
 ## app output
-![./img/app-homepage.png]
-![./img/app-helloworld.png]
-
-
-
-
-
-
+!(../master/img/app-homepage.png)
+!(../master/img/app-helloworld.png)
 
 # Reference
 
