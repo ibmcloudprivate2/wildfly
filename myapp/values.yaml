@@ -5,13 +5,13 @@
 replicaCount: 1
 
 image:
-  repository: mycluster.icp:8500/dev/mbapp:1.1
+  repository: mycluster.icp:8500/dev/mtl-helloworld:1.0
   tag: stable
   pullPolicy: IfNotPresent
 
 service:
-  type: ClusterIP
-  port: 80
+  type: NodePort
+  port: 5000
 
 ingress:
   enabled: false

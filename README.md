@@ -10,21 +10,79 @@ FROM jboss/wildfly
 ## build docker image
 
 ```
-docker build . -t wfhelloworld
+docker build . -t mtl-helloworld
 ```
 
 ## test the image
 
 ```
-docker run -p 5000:8080 wfhelloworld
+docker run -p 5000:8080 mtl-helloworld
 ```
 
 ## access the app
 
 ```
-curl -I http://localhost:5000
+$ curl -I http://localhost:5000
 ```
 
+use browser to access and you should see **Hello World!**
+```
+http://localhost:5000/helloworld/HelloWorld
+```
+
+expected output
+```
+HTTP/1.1 200 OK
+Connection: keep-alive
+Last-Modified: Thu, 01 Mar 2018 06:29:00 GMT
+X-Powered-By: Undertow/1
+Server: WildFly/11
+Content-Length: 2438
+Content-Type: text/html
+Accept-Ranges: bytes
+Date: Wed, 11 Apr 2018 10:47:11 GMT
+```
+
+# config hostname in /etc/hosts
+ensure your /etc/hosts file has the IP that map to the ICP cluster name
+
+e.g.
+
+192.168.64.148 mycluster.icp
+
+## push image to ICP repo
+
+### create a namespace
+create a namespace of your choice in ICP using UI or kubectl
+
+e.g. dev
+
+### tag the image
+```
+docker tag mtl-helloworld mycluster.icp:8500/dev/mtl-helloworld:1.0
+```
+
+### login to docker
+```
+docker login mycluster.icp:8500
+```
+
+### push the image
+```
+docker push mycluster.icp:8500/dev/mtl-helloworld:1.0
+```
+
+# Helm Chart
+
+## create helm chart
+```
+helm create myapp
+```
+
+## package the chart
+```
+helm package ./myapp
+```
 
 # Reference
 
