@@ -88,7 +88,8 @@ helm package ./myapp
 
 ## add demo charts to ICP catalog
 helm add ```https://ibmcloudprivate2.github.io/mycharts```
-!(./img/helm-repo.png)
+
+![helmrepo](../master/img/helm-repo.png)
 
 ## catalog
 ![./img/demo-chart.png]
