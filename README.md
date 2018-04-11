@@ -84,6 +84,32 @@ helm create myapp
 helm package ./myapp
 ```
 
+# Deploy the app using ICP Catalog
+
+## add demo charts to ICP catalog
+helm add ```https://ibmcloudprivate2.github.io/mycharts```
+![./img/helm-repo.png]
+
+## catalog
+![./img/demo-chart.png]
+![./img/repo-image.png]
+
+## configure chart
+![./img/configure-chart.png]
+
+## install chart
+![./img/install-chart.png]
+
+## app output
+![./img/app-homepage.png]
+![./img/app-helloworld.png]
+
+
+
+
+
+
+
 # Reference
 
-[refe to dotnet app sample for more docker command](https://github.com/ibmcloudprivate2/dotnet/tree/master/samples/sample_aspnetmvc)
+[refer to dotnet app sample for more docker command](https://github.com/ibmcloudprivate2/dotnet/tree/master/samples/sample_aspnetmvc)
