@@ -183,6 +183,40 @@ helm add ```https://ibmcloudprivate2.github.io/mycharts```
 ![homepage](../master/img/app-homepage.png)
 ![helloworled endpoint](../master/img/app-helloworld.png)
 
-# Reference
+# Test drive ICP
+You can start test drive ICP using Terraform.
 
-[refer to dotnet app sample for more docker command](https://github.com/ibmcloudprivate2/dotnet/tree/master/samples/sample_aspnetmvc)
+- [Deploy ICP on IBM Cloud](https://github.com/pjgunadi/ibm-cloud-private-terraform-softlayer)
+- [Deploy ICP on vmware](https://github.com/pjgunadi/ibm-cloud-private-terraform-vmware)
+- [Deploy ICP on AWS](https://github.com/pjgunadi/ibm-cloud-private-terraform-aws)
+
+## Test CI/CD
+Once you have your ICP, you can test drive CI/CD using GitLab and Jenkins.
+
+- [test drive ci/cd](https://github.com/pjgunadi/discovery-news-demo)
+
+## To quickly test drive some application
+you can test drive some application by adding the the repo below to ICP catalog.
+
+```
+https://ibmcloudprivate2.github.io/mycharts/
+```
+
+With the above charts you can test drive deployment of sample application 
+
+- [.NET Core 2.0 app](https://github.com/ibmcloudprivate2/dotnet)
+- [Python Flask web app](https://github.com/ibmcloudprivate2/flask)
+- [Wildfly web app](https://github.com/ibmcloudprivate2/wildfly)
+- [Play framework app](https://github.com/ibmcloudprivate2/playframework)
+- [angular admin application](https://github.com/ibmcloudprivate2/ng4-admin)
+
+# References
+
+- [Getting started with reference architectures](https://www.ibm.com/cloud/garage/content/think/practice_get_started_with_architectures/)
+- [Deploy a Spring Cloud application on IBM Cloud Private](https://www.ibm.com/cloud/garage/tutorials/cloud-private-spring-cloud/)
+- [Microservices for fast time to market and improved app quality](https://www.ibm.com/cloud/garage/architectures/microservices)
+- [Building Stock Trader in IBM Cloud Private 2.1 using Production Services](https://www.ibm.com/developerworks/community/blogs/5092bd93-e659-4f89-8de2-a7ac980487f0/entry/Building_Stock_Trader_in_IBM_Cloud_Private_2_1_using_Production_Services?lang=en)
+- [twelve-factor app](https://12factor.net/)
+- [Best practice for Dokcerfile](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+- [Best practice for docker development](https://docs.docker.com/develop/dev-best-practices/)
+- [refer to dotnet app sample for more docker command](https://github.com/ibmcloudprivate2/dotnet/tree/master/samples/sample_aspnetmvc)
