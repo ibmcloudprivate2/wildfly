@@ -55,7 +55,7 @@ Accept-Ranges: bytes
 Date: Wed, 11 Apr 2018 10:47:11 GMT
 ```
 
-You can also view the **helloworld** application with the below url.
+You can also view the **helloworld** application with url the below.
 
 ```
 http://localhost:5000/helloworld/HelloWorld
