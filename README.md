@@ -1,8 +1,8 @@
 # wildfly
 
-This is a project demonstrated steps to dockerize a [helloworld](https://github.com/wildfly/quickstart/tree/master/helloworld) application from the wildfly [quickstart](https://github.com/wildfly/quickstart) projects.
+This project demonstrate the steps to dockerize a [helloworld](https://github.com/wildfly/quickstart/tree/master/helloworld) application from the wildfly [quickstart](https://github.com/wildfly/quickstart) projects.
 
-I would also recommend looking at [Microservice Builder](https://www.ibm.com/support/knowledgecenter/en/SS5PWC/index.html) and also the next generatio of application development [microclimate](https://microclimate-dev2ops.github.io/.
+I would recommend looking at [Microservice Builder](https://www.ibm.com/support/knowledgecenter/en/SS5PWC/index.html) and also the next generation application development [microclimate](https://microclimate-dev2ops.github.io/.
 
 Microservice Builder is about focus on app development and not the framework where you can used to develop Java EE and [MicroProfile.io](http://microprofile.io/) based programming model.
 
