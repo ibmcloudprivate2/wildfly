@@ -210,6 +210,8 @@ With the above charts you can test drive deployment of sample application
 - [Play framework app](https://github.com/ibmcloudprivate2/playframework)
 - [angular admin application](https://github.com/ibmcloudprivate2/ng4-admin)
 
+- short [video](https://www.youtube.com/playlist?list=PLJbpjOCY3AtW7KiSJKP6_YD9uXHfo1_KM) of ICP feature usage
+
 # References
 
 - [Getting started with reference architectures](https://www.ibm.com/cloud/garage/content/think/practice_get_started_with_architectures/)
