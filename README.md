@@ -30,6 +30,14 @@ To list the docker images on your machine, execute the following command.
 docker images
 ```
 
+## delete your images
+
+clean up the images locally
+```
+docker rm `docker ps --no-trunc -a -q`
+docker images | grep '' | awk '{print $3}' | xargs docker rmi
+```
+
 ## test the image
 To test the application dockerize above, you can run your application with the following command.
 
