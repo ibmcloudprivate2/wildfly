@@ -18,6 +18,7 @@ I have also created another [project](https://github.com/ibmcloudprivate2/openli
 - [Deploy the WebSphere Liberty application from the Kubernetes command line](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/5)
 
 ## others
+- [Running Liberty applications in IBM Cloud Private](https://www.ibm.com/support/knowledgecenter/en/SSAW57_liberty/com.ibm.websphere.wlp.nd.multiplatform.doc/ae/twlp_icp.html)
 - [Migrating WebSphere apps to IBM Cloud Private](https://www.ibm.com/cloud/garage/videos/migrating-websphere-app-to-cloud)
 - [Microservices for fast time to market and improved app quality](https://www.ibm.com/cloud/garage/architectures/microservices)
 - [Private cloud for maximum control with the benefits of cloud](https://www.ibm.com/cloud/garage/architectures/private-cloud)
