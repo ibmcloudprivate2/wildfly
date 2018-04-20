@@ -6,6 +6,22 @@ I would recommend looking at [Microservice Builder](https://www.ibm.com/support/
 
 Microservice Builder is about focus on app development and not the framework where you can used to develop Java EE and [MicroProfile.io](http://microprofile.io/) based programming model.
 
+I have also created another [project](https://github.com/ibmcloudprivate2/openliberty) that's show how you would create the Dockerfile where the same web application can be deployed on WebSphere Liberty.
+
+# Some references on using WebSphere Liberty
+
+## Course : **Migrate traditional WebSphere apps to WebSphere Liberty on IBM Cloud Private by using Kubernetes**
+- [Modernize an application to run on WebSphere Liberty](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/1)
+- [Locally build and run the WebSphere Liberty application](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/2)
+- [Containerize the WebSphere Liberty application](Containerize the WebSphere Liberty application)
+- [Configure Kubernetes for WebSphere Liberty](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/4)
+- [Deploy the WebSphere Liberty application from the Kubernetes command line](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/5)
+
+## others
+- [Migrating WebSphere apps to IBM Cloud Private](https://www.ibm.com/cloud/garage/videos/migrating-websphere-app-to-cloud)
+- [Microservices for fast time to market and improved app quality](https://www.ibm.com/cloud/garage/architectures/microservices)
+- [Private cloud for maximum control with the benefits of cloud](https://www.ibm.com/cloud/garage/architectures/private-cloud)
+
 # Dockerfile
 To dockerize your web application create a Dockerfile with the following content.
 
