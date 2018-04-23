@@ -13,7 +13,7 @@ I have also created another [project](https://github.com/ibmcloudprivate2/openli
 ## Course : **Migrate traditional WebSphere apps to WebSphere Liberty on IBM Cloud Private by using Kubernetes**
 - [Modernize an application to run on WebSphere Liberty](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/1)
 - [Locally build and run the WebSphere Liberty application](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/2)
-- [Containerize the WebSphere Liberty application](Containerize the WebSphere Liberty application)
+- [Containerize the WebSphere Liberty application](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/3)
 - [Configure Kubernetes for WebSphere Liberty](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/4)
 - [Deploy the WebSphere Liberty application from the Kubernetes command line](https://www.ibm.com/cloud/garage/content/course/websphere-on-cloud-private/5)
 
